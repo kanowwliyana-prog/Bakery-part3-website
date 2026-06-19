@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Treats Bakery | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="topBtn" aria-label="Back to top">↑</button>
+
+    <header>
+        <div class="container navbar">
+            <div class="logo">Sweet Treats Bakery</div>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-banner contact-banner">
+        <div class="overlay">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Get in touch for orders, enquiries, custom cakes, and bakery services.</p>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="section">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p><strong>Phone:</strong> 071 674 2647</p>
+                    <p><strong>Email:</strong> kanowwliyana@gmail.com</p>
+                    <p><strong>Address:</strong> 21926 Sazakhela Street, Etwatwa, Benoni, 1519</p>
+                    <p><strong>Business Hours:</strong> Monday - Saturday, 08:00 - 18:00</p>
+
+                    <img src="c:\Users\Kanow\Downloads\outside.jpg" alt="Front view of bakery shop" class="rounded-img">
+                </div>
+
+                <div class="contact-form-box">
+                    <h2>Book or Enquire</h2>
+                    <form id="contactForm">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                        <label for="product">Product Needed</label>
+                        <select id="product" name="product" required>
+                            <option value="">Select a product</option>
+                            <option value="cake">Cake</option>
+                            <option value="bread">Bread</option>
+                            <option value="cupcakes">Cupcakes</option>
+                            <option value="pastries">Pastries</option>
+                            <option value="catering">Catering</option>
+                        </select>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Write your message here" required></textarea>
+
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Sweet Treats Bakery. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
